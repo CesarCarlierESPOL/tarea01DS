@@ -16,8 +16,8 @@ public class Principal extends Application {
 	private Scene scene;
 	
 	private final Button redButton = new Button("Rojo");
-	private Button blueButton = new Button("Azul");
-	private Button yellowButton = new Button("Amarillo");
+	private final Button blueButton = new Button("Azul");
+	private final Button yellowButton = new Button("Amarillo");
 	private final HBox hboxButtons = new HBox();
 	
 	private void configureButtonStyles() {
@@ -29,7 +29,9 @@ public class Principal extends Application {
 	}
 	
 	private void configureActions() {
-		// TODO: Agregar codigo para poner color
+		redButton.setOnAction(e -> root.setStyle("-fx-background-color: red;"));
+		blueButton.setOnAction(e -> root.setStyle("-fx-background-color: blue;"));
+		yellowButton.setOnAction(e -> root.setStyle("-fx-background-color: yellow;"));
 	}
 	
 	@Override
