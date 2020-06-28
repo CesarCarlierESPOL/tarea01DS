@@ -28,10 +28,22 @@ public class Principal extends Application {
 		AnchorPane.setLeftAnchor(hboxButtons, 60.0);
 	}
 	
+	public void cambiarColorRojo() {
+		root.setStyle("-fx-background-color: red;");
+	}
+	
+	public void cambiarColorAzul() {
+		root.setStyle("-fx-background-color: blue;");
+	}
+	
+	public void cambiarColorAmarillo() {
+		root.setStyle("-fx-background-color: yellow;");
+	}
+	
 	private void configureActions() {
-		redButton.setOnAction(e -> root.setStyle("-fx-background-color: red;"));
-		blueButton.setOnAction(e -> root.setStyle("-fx-background-color: blue;"));
-		yellowButton.setOnAction(e -> root.setStyle("-fx-background-color: yellow;"));
+		redButton.setOnAction(e -> cambiarColorRojo());
+		blueButton.setOnAction(e -> cambiarColorAzul());
+		yellowButton.setOnAction(e -> cambiarColorAmarillo());
 	}
 	
 	@Override
