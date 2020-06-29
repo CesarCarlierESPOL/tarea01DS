@@ -1,17 +1,35 @@
+import javafx.scene.control.Alert.AlertType; 
+import javafx.scene.control.Alert;
+
+
 public aspect ColorAspect{
 	
-	pointcut cambioA() : call(*.cambioColorRojo());
+	private final Alert ventana = new Alert(AlertType.INFORMATION); 
+	
+	pointcut cambioA() : call(* *.cambiarColorRojo());
 	after() : cambioA(){
-		System.out.print("**** Cambio el color del fondo a: Rojo ****");
+		String msg = "**** Cambio el color del fondo a: Rojo ****";
+		
+		ventana.setContentText(msg);
+		System.out.println(msg);
+		ventana.show();
 	}
 	
-	pointcut cambioB() : call(*.cambioColorAzul());
+	pointcut cambioB() : call(* *.cambiarColorAzul());
 	after() : cambioB(){
-		System.out.print("**** Cambio el color del fondo a: Azul ****");
+		String msg = "**** Cambio el color del fondo a: Azul ****";
+		
+		ventana.setContentText(msg);
+		System.out.println(msg);
+		ventana.show();
 	}
 	
-	pointcut cambioC() : call(*.cambioColorAmarillo());
+	pointcut cambioC() : call(* *.cambiarColorAmarillo());
 	after() : cambioC(){
-		System.out.print("**** Cambio el color del fondo a: Amarillo ****");
+		String msg = "**** Cambio el color del fondo a: Amarillo ****";
+		
+		ventana.setContentText(msg);
+		System.out.println(msg);
+		ventana.show();
 	}
 }

@@ -6,25 +6,46 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/LEGION/Documents/ESPOL/Diseño de Software/Tareas/Tarea 1/tarea01DS/lib/javafx.base.jar">
+	<classpathentry kind="lib" path="/home/eacarras/Documents/others/tarea01DS/lib/javafx-swt.jar">
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/LEGION/Documents/ESPOL/Diseño de Software/Tareas/Tarea 1/tarea01DS/lib/javafx.controls.jar">
+	<classpathentry kind="lib" path="/home/eacarras/Documents/others/tarea01DS/lib/javafx.web.jar">
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/LEGION/Documents/ESPOL/Diseño de Software/Tareas/Tarea 1/tarea01DS/lib/javafx.fxml.jar">
+	<classpathentry kind="lib" path="/home/eacarras/Documents/others/tarea01DS/lib/javafx.swing.jar">
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/LEGION/Documents/ESPOL/Diseño de Software/Tareas/Tarea 1/tarea01DS/lib/javafx.graphics.jar">
+	<classpathentry kind="lib" path="/home/eacarras/Documents/others/tarea01DS/lib/javafx.media.jar">
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="/home/eacarras/Documents/others/tarea01DS/lib/javafx.graphics.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/eacarras/Documents/others/tarea01DS/lib/javafx.fxml.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/eacarras/Documents/others/tarea01DS/lib/javafx.controls.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/eacarras/Documents/others/tarea01DS/lib/javafx.base.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.ajdt.core.ASPECTJRT_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
